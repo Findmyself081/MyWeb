@@ -10,7 +10,7 @@ import { faBed, faCar, faPlane, faTaxi, faToriiGate } from '@fortawesome/free-so
             <div className="navbarContainer">
                 <div className="lineOne">
                     <div className="left">
-                    <span className="logo">Ou.Travel</span>
+                    <span className="logo">TimOu's Booking.com</span>
                     </div>
                     <div className="right">
                     <button className='navButtonFlag'/>
