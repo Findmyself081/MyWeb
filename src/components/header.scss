@@ -19,7 +19,7 @@
         }
         .headerSearchBar {
             position: absolute;
-            bottom: 10px;
+            bottom: -30px;
             height: 55px;//設定SearchBar高度
             width: 95%;//原本設100%雖然此本專案沒有做到RWD網頁 但發現他超過太誇張修正為95%
             max-width: 1024px;//這邊一樣會希望他能不要太寬 所以最寬1024px
@@ -54,6 +54,12 @@
                 background-color: #fff;//欄位顏色
                 border-radius: 2px;
                 cursor: pointer;//讓他們觸控時鼠標會變顏色
+                .calendar{
+                    position: absolute;//這邊一樣用絕對定位讓他超出container往下
+                    top: 56px;
+                    border: 1px lightgray solid;
+                    box-shadow: 0px 0px 15px lightgray;//box-shadow增加陰影與邊線
+                }
             }
             .SearchBarBtn {//最後就基本btn設計
                 border: none;
